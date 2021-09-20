@@ -1,3 +1,44 @@
- .current {
-  color: green;
+$font-stack:    Courier, sans-serif;
+$primary-color: #333;
+$grey: #6B6D76;
+$charcoal: #334E58;
+$brown: #33261D;
+$green: #62AB37;
+$orange: #F46036;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color:  #d8e2df; 
+    
+  a:link {
+    color: $green;
+  }
+  
+  a:visited {
+    color: $green;
+  }
+  
+  a:hover {
+    color: $orange;
+  }
+}
+
+nav {
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  width: 100%;
+  .current {
+    color: $orange !important;
+  }
+
+  a {
+    float: left;
+    display: block;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 2px solid $brown;
+  }
 }

@@ -1,3 +1,8 @@
-.current { color: green; }
+body { font: 100% Courier, sans-serif; color: #333; background-color: #d8e2df; }
+body a:link { color: #62AB37; }
+body a:visited { color: #62AB37; }
+body a:hover { color: #F46036; }
 
-/*# sourceMappingURL=styles.css.map */
+nav { float: left; margin: 0 0 3em 0; padding: 0; width: 100%; }
+nav .current { color: #F46036 !important; }
+nav a { float: left; display: block; padding: 12px 12px; text-decoration: none; font-weight: bold; border-right: 2px solid #33261D; }
