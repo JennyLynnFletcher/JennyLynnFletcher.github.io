@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+---
+<h1>Projects</h1>
+
+<h2> Lorem Ipsum Dolor Sit </h2>
+
+<ul>
+    {% for project in site.projects %}
+        <il>
+            <h3>{{ project.name }}</h3>
+            {{ project.content | markdownify }}
+        </il>
+    {% endfor %}
+</ul>

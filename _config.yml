@@ -1,0 +1,35 @@
+title: Jenny Fletcher
+email: jenny.lynn.fletcher@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Description of my site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: JennyLFletcher
+github_username:  JennyLynnFletcher
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
