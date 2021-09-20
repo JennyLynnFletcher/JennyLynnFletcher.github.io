@@ -10,7 +10,7 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
   background-color:  #d8e2df; 
-  margin: 0 0 0 1.5em;
+  margin: 0 0 0 3em;
     
   a:link {
     color: $green;
@@ -27,8 +27,7 @@ body {
 
 nav {
   float: left;
-  margin: 0 0 1.5em 0;
-  padding: 0;
+  margin: 0 0 1.5em -2em;
   width: 100%;
   
   .current {

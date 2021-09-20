@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>About</title>
+    <title>Title</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jenny Fletcher" />
   </head>
   <body>
     <nav>
   
-    <a href="/" class="current">
+    <a href="/" >
       Home
     </a>
   
@@ -27,11 +27,9 @@
   
 </nav>
 
-    <h1 id="title">Title</h1>
+    <h1>Title</h1>
 
-<h2 id="some-thrilling-content">Some Thrilling Content</h2>
-
-<p>Thanks for visiting my wonderful website</p>
+<h2> Lorem Ipsum Dolor Sit </h2>
 
   </body>
 </html>

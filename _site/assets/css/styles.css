@@ -1,8 +1,8 @@
-body { font: 100% Courier, sans-serif; color: #333; background-color: #d8e2df; margin: 0 0 0 1.5em; }
+body { font: 100% Courier, sans-serif; color: #333; background-color: #d8e2df; margin: 0 0 0 3em; }
 body a:link { color: #62AB37; }
 body a:visited { color: #62AB37; }
 body a:hover { color: #F46036; }
 
-nav { float: left; margin: 0 0 1.5em 0; padding: 0; width: 100%; }
+nav { float: left; margin: 0 0 1.5em -2em; width: 100%; }
 nav .current { color: #F46036 !important; }
 nav a { font: 200% Courier, sans-serif; float: left; display: inline-block; padding: 6px 24px; text-decoration: none; font-weight: bold; }
